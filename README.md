@@ -42,19 +42,6 @@ The game continues until you either guess the word correctly or the hangman is f
 ## Installation  
 To play this game, simply run the Python script on your machine.
 
-### Prerequisites  
-- Python 3.x
-
----
-
-## Contributing  
-Feel free to fork this repository, make improvements, or suggest new features like adding more flower names, customizing the hangman display, or adding a difficulty level.
-
----
-
-## License  
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---  
 
 Enjoy the game and good luck guessing those flowers! 🌸
