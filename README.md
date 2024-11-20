@@ -1,25 +1,60 @@
-# Hangman Game with Floral Theme
+# 🌸 Hangman Game - Floral Edition 🌸
 
-## Overview
+## Overview  
+This is a fun, interactive **Hangman Game** where the hidden word is a type of **flower**. Players must guess the letters of the word, with each incorrect guess bringing the hangman closer to being fully drawn. You have a limited number of attempts to guess the word before the game ends.
 
-This project is a Python-based implementation of the classic **Hangman Game**, featuring a unique floral theme. Players are challenged to guess letters of a hidden word related to flowers. The game provides visual feedback as incorrect guesses are made, bringing the hangman closer to completion.
+## Features  
+- 🌸 **Floral Vocabulary**: The hidden words are names of various flowers like **rose**, **lily**, **tulip**, and more.  
+- ⚖️ **Visual Hangman Display**: A hangman figure is progressively drawn with each wrong guess.  
+- 🎮 **Interactive Gameplay**: Players guess letters to reveal the word, with real-time feedback on each guess.
 
-## Features
-
-- **Floral Vocabulary:** Hidden words are names of various flowers, adding a thematic twist.
-- **Visual Hangman Display:** As players make incorrect guesses, a hangman figure is progressively drawn.
-- **Interactive Gameplay:** Players receive feedback on each guess and can see the partially revealed word.
-
-## Code Description
-
-- **`hangman_game.py`**: Contains the main game logic and user interface.
-  - **`flowers`**: A list of flower names used as potential hidden words.
-  - **`hangman_display(attempt)`**: Function that returns the visual representation of the hangman based on the number of remaining attempts.
-  - **Game Loop**: Manages user input, updates game state, and provides feedback.
-
-## Usage
-
-1. Start the game by running the Python script.
-2. Guess letters to reveal the hidden flower name.
-3. Incorrect guesses will draw the hangman figure, and you have a limited number of attempts.
+## How to Play  
+1. Start the game and guess one letter at a time.  
+2. If the guessed letter is part of the word, it will be revealed.  
+3. If the letter is not part of the word, the hangman figure will be drawn, and you lose one attempt.  
 4. The game ends when you either guess the word correctly or run out of attempts.
+
+## Game Rules  
+- You have **6 attempts** to guess the word.
+- The word is related to a **type of flower**.
+- **Incorrect guesses** lead to the progressive drawing of the hangman.
+
+## Code Breakdown  
+- **flowers**: A list of flower names used as potential hidden words.  
+- **hangman_display(attempt)**: A function that returns a visual representation of the hangman based on the remaining attempts.  
+- **Game Loop**: Manages the game flow, including player input, updating game state, and providing feedback.
+
+## Example of Gameplay  
+When you start the game, you'll be asked to guess letters. If you make an incorrect guess, you'll see the hangman figure progressively drawn:
+
+```
+Guess a letter: t
+Good guess! Keep going.
+
+Word: t _ _ _ _
+
+Guess a letter: r
+Wrong guess! Try again.
+```
+
+The game continues until you either guess the word correctly or the hangman is fully drawn.
+
+## Installation  
+To play this game, simply run the Python script on your machine.
+
+### Prerequisites  
+- Python 3.x
+
+---
+
+## Contributing  
+Feel free to fork this repository, make improvements, or suggest new features like adding more flower names, customizing the hangman display, or adding a difficulty level.
+
+---
+
+## License  
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---  
+
+Enjoy the game and good luck guessing those flowers! 🌸
