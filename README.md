@@ -1,12 +1,12 @@
-# 🌸 Hangman Game - Floral Edition 🌸
+# 🌸 Hangman Game - Floral Edition
 
 ## Overview  
 This is a fun, interactive **Hangman Game** where the hidden word is a type of **flower**. Players must guess the letters of the word, with each incorrect guess bringing the hangman closer to being fully drawn. You have a limited number of attempts to guess the word before the game ends.
 
 ## Features  
-- 🌸 **Floral Vocabulary**: The hidden words are names of various flowers like **rose**, **lily**, **tulip**, and more.  
-- ⚖️ **Visual Hangman Display**: A hangman figure is progressively drawn with each wrong guess.  
-- 🎮 **Interactive Gameplay**: Players guess letters to reveal the word, with real-time feedback on each guess.
+-  **Floral Vocabulary**: The hidden words are names of various flowers like **rose**, **lily**, **tulip**, and more.  
+-  **Visual Hangman Display**: A hangman figure is progressively drawn with each wrong guess.  
+-  **Interactive Gameplay**: Players guess letters to reveal the word, with real-time feedback on each guess.
 
 ## How to Play  
 1. Start the game and guess one letter at a time.  
@@ -44,4 +44,4 @@ To play this game, simply run the Python script on your machine.
 
 ---  
 
-Enjoy the game and good luck guessing those flowers! 🌸
+Enjoy the game and good luck guessing those flowers! 
